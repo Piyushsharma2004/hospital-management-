@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 import { Stethoscope, User, Scan } from 'lucide-react'
-import AutoHighlightXray from './hightlightXray'
+import AutoHighlightXray from '../x-ray-hightlight/AutoHighlightXray'
 import AIXRayReports1 from './AIXRayReports1'
 import DiseaseDetailPage from './all-disease-tab'
 
@@ -9,7 +9,7 @@ const MainXrayComponent: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'patient' | 'doctor' | 'xray'>('patient')
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container  ">
       <div className="flex mb-4 space-x-2">
         <button
           onClick={() => setActiveTab('patient')}

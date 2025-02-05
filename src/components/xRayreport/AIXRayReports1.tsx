@@ -346,7 +346,7 @@ const AIXRayReports1: React.FC = () => {
 
   // Rest of the component remains similar to previous implementation
   return (
-    <div className="min-h-screen p-8">
+    <div className="min-h-screen p-1">
       {/* main view part  */}
       <div className="max-w-4xl mx-auto bg-white/85 backdrop-blur-lg rounded-3xl shadow-2xl overflow-hidden border border-orange-200">
               <div className="p-6 bg-gradient-to-r from-orange-600 to-amber-600">
