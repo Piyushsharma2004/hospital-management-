@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FileUp, X, Camera, AlertCircle } from 'lucide-react'
+import { Highlight } from './types'
 
 interface XRayUploadProps {
   selectedFile: File | null
