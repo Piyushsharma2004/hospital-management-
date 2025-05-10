@@ -7,7 +7,7 @@ const MLTrainingPopup = () => {
 
   useEffect(() => {
     const startTime = Date.now();
-    const duration = 10000; // 10 seconds
+    const duration = 5000; // 10 seconds
     const animationFrame = requestAnimationFrame(function update() {
       const elapsedTime = Date.now() - startTime;
       const remainingProgress = Math.max(0, 100 - (elapsedTime / duration) * 100);

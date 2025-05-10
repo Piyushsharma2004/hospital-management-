@@ -38,7 +38,7 @@ const apichat = async (prompt: string): Promise<string> => {
 
   try {
     const response = await axios.post<GeminiResponse>(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${geminiApiKey}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${geminiApiKey}`,
       {
         contents: [
           {
