@@ -151,9 +151,7 @@ export default function SigninWithPassword() {
         >
           Sign In
         </button>
-        <h1 className="font-bold text-sm">**For Testing** </h1>
-        <h2 className="text-red"><span className="font-bold">Username:</span>Admin@123<span className="font-bold pl-3">Password:</span> admin123 </h2>
-      </div>
+       </div>
     </form>
   );
 }
