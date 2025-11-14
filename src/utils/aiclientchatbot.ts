@@ -3,7 +3,7 @@ import axios from 'axios';
 // Ensure the API key is being loaded correctly.
 // Note: NEXT_PUBLIC_ variables are only available in browser-side code in Next.js.
 // If this runs on the server, it should be process.env.YOUR_SERVER_SIDE_API_KEY
-const geminiApiKey = process.env.NEXT_PUBLIC_API_GENERATIVE_LANGUAGE_CLIENT;
+const geminiApiKey = process.env.NEXT_PUBLIC_API_GENERATIVE_LANGUAGE_CLIENT ||"AQ.Ab8RN6LN2n3HZdt5C6jK2v2vOg0ew5sywsNCOGmad5j-1D3_9g";
 
 // Define the correct response structure from the Generative Language API
 interface GeminiResponse {
