@@ -4,7 +4,7 @@
 Medigo AI is an AI-powered medical dashboard designed to enhance healthcare for doctors and general users. 
 It combines state-of-the-art AI models with telemedicine, MedTech integrations, and mental health tools, 
 creating a comprehensive and user-friendly solution. This project is divided into two sections: 
-*Doctor* and *General User*, catering to their specific needs.
+*Doctor* and *General User*, catering to their specific 
 
 ---
 ## Project live deploy url = https://medigoai.vercel.app/
